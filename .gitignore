@@ -1,0 +1,26 @@
+# Compiled Java files
+*.class
+
+# Jar files
+*.jar
+*.war
+*.ear
+
+# IDE configurations
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+
+# Build directories
+target/
+out/
+bin/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Compiled C files
+*.exe
