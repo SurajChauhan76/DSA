@@ -4,7 +4,9 @@ import java.util.ArrayDeque;
 public class HistogramLargestRect {
     
     public static int largestRectangleArea(int[] heights) {
-
+        // Edge case
+        if (heights == null || heights.length == 0) return 0;
+        
         // stack holds the indices of the histogram bars.
         Deque<Integer> stack = new ArrayDeque<>();
         int maxArea = 0;
