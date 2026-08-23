@@ -41,3 +41,6 @@ public class FourSum {
         System.out.println("Four sum count: " + fourSumIICount(nums1, nums2, nums3, nums4));
     }
 }
+
+// Time: O(n2)
+// Space: O(n2)

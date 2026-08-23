@@ -1,6 +1,7 @@
 import java.util.HashMap;
 import java.util.Arrays;
 
+// Unsorted Array
 public class TwoSum {
     public static int[] twoSum(int[] nums, int target) {
         // Map will store: <The Number, Its Index>
@@ -43,3 +44,6 @@ public class TwoSum {
 
     }
 }
+
+// Time: O(n)
+// Space: O(n)

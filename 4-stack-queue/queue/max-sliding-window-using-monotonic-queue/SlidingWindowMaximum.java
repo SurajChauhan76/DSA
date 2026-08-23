@@ -2,6 +2,7 @@ import java.util.ArrayDeque;
 import java.util.Arrays;
 import java.util.Deque;
 
+// Monotonic Queue: Queue(Remove from front) & Stack(Remove from last) - Both features combined.
 public class SlidingWindowMaximum {
     public static int[] maxSlidingWindow(int[] nums, int k) {
         if (nums == null || k <= 0) return new int[0];
