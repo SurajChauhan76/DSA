@@ -45,3 +45,11 @@ public class LowestCommonAncestor {
         }
     }
 }
+
+/*
+Find the lowest node in a tree that has both nodes p and q as descendants. Traverse the tree; if the current node is p or q, return it. Search the left and right subtrees. If both return a non-null result, the current node is the LCA. If only one returns a result, pass that result up.  
+
+Time Complexity: O(N), as we might need to visit every node in the worst-case scenario if the target nodes are deep in the tree.
+
+Space Complexity: O(H) for the recursion stack.
+*/
